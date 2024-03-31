@@ -1,0 +1,81 @@
+/* hero.scss */
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #0e0320, #0c0c1d);
+  padding: 20px;
+  min-height: calc(100vh - 100px);
+
+  .wrapper {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+
+      .textContainer {
+        flex: 1;
+        padding-right: 20px;
+        box-sizing: border-box;
+
+        p {
+          font-size: 1.5rem;
+          line-height: 1.5;
+          font-weight: 500;
+          line-height: 40px;
+
+          span {
+            color: #eb4a7e;
+          }
+        }
+
+        h2 {
+          font-size: 4rem;
+          font-weight: bold;
+          padding: 20px 0;
+
+          span {
+            color: #339dc4;
+          }
+        }
+      }
+
+      .imageContainer {
+        flex: 1;
+        position: relative;
+        max-width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+          max-width: 100%;
+          display: block;
+          height: 500px;
+          position: absolute;
+          object-fit: cover;
+          padding: 20px;
+          box-shadow: 0 5px 5px 5px #eb4a7e;
+          animation: animate 5s ease-in-out infinite;
+          transition: all 1s ease-in-out;
+        }
+
+        @keyframes animate {
+          0%,
+          100% {
+            border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+          }
+          50% {
+            border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+          }
+        }
+      }
+    }
+  }
+}
