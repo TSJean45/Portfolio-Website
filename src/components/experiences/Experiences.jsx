@@ -16,38 +16,41 @@ export const Experiences = () => {
       </div>
       <div className="timeline">
         <VerticalTimeline layout={"1-column-left"}>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{
-              background: "transparent",
-              color: "#fff",
-              border: "3px solid #eb4a7e",
-            }}
-            contentArrowStyle={{ borderRight: "10px solid  #eb4a7e" }}
-            date="2/2023 - 4/2023"
-            iconStyle={{ background: "#eb4a7e", color: "#fff" }}
-          >
-            <h3 className="vertical-timeline-element-title">
-              Voluntary Research Assistant
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              InnovLab Multimedia University Melaka
-            </h4>
-            <p>
-              <ul>
-                <li>
-                  Spearheaded efforts to enhance the accuracy of human action
-                  recognition, achieving a notable{" "}
-                  <span>90% accuracy rate</span>, significantly surpassing
-                  initial project benchmarks
-                </li>
-                <li>
-                  Explored and experimented with various machine learning
-                  algorithms, including <span>SVM, KNN, DT and LR</span>
-                </li>
-              </ul>
-            </p>
-          </VerticalTimelineElement>
+          <div>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{
+                background: "transparent",
+                color: "#fff",
+                border: "3px solid #eb4a7e",
+              }}
+              whileHover={{ color: "#eb4a7e" }}
+              contentArrowStyle={{ borderRight: "10px solid  #eb4a7e" }}
+              date="2/2023 - 4/2023"
+              iconStyle={{ background: "#eb4a7e", color: "#fff" }}
+            >
+              <h3 className="vertical-timeline-element-title">
+                Voluntary Research Assistant
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                InnovLab Multimedia University Melaka
+              </h4>
+              <p>
+                <ul>
+                  <li>
+                    Spearheaded efforts to enhance the accuracy of human action
+                    recognition, achieving a notable{" "}
+                    <span>90% accuracy rate</span>, significantly surpassing
+                    initial project benchmarks
+                  </li>
+                  <li>
+                    Explored and experimented with various machine learning
+                    algorithms, including <span>SVM, KNN, DT and LR</span>
+                  </li>
+                </ul>
+              </p>
+            </VerticalTimelineElement>
+          </div>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{

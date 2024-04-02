@@ -1,0 +1,104 @@
+.skills {
+    background: linear-gradient(180deg, #0e0320, #0c0c1d);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    .titleContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  
+      h1 {
+        font-size: 3rem;
+        margin-top: 50px;
+      }
+    }
+  
+    .wrapper {
+      position: relative;
+      width: 100%;
+      max-width: 1500px;
+      gap: 12px;
+      @media (max-width: 960px) {
+        flex-direction: column;
+      }
+  
+      .skillContainer {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        gap: 30px;
+        justify-content: center;
+  
+        .skillCard {
+          background: transparent;
+          border: 0.1px solid #eb4a7e;
+          box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+          border-radius: 16px;
+          padding: 14px 26px;
+          transition: all 0.3s ease; /* Added transition for smooth hover effect */
+  
+          &:hover {
+            border-color: #339dc4; /* Change border color on hover */
+            transform: scale(1.02); /* Scale up the card on hover */
+          }
+  
+          @media (max-width: 768px) {
+            padding: 8px 16px;
+          }
+          @media (max-width: 500px) {
+            padding: 6px 12px;
+          }
+  
+          .skillTitle {
+            font-size: 20px;
+            font-weight: 600;
+            color: white;
+            margin-bottom: 20px;
+            text-align: center;
+          }
+  
+          .skillList {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 20px;
+  
+            .skillItem {
+              font-size: 14px;
+              font-weight: 400;
+              color: white;
+              border: 1px solid white;
+              border-radius: 12px;
+              padding: 8px 12px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              gap: 8px;
+              @media (max-width: 768px) {
+                font-size: 12px;
+                padding: 6px 10px;
+              }
+              @media (max-width: 500px) {
+                font-size: 12px;
+                padding: 4px 8px;
+                word-wrap: break-word; // Add this property for word wrap
+              }
+  
+              img {
+                width: 24px;
+                height: 24px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
