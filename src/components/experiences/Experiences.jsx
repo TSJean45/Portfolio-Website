@@ -1,4 +1,4 @@
-import "./experience.scss";
+import "./experiences.scss";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -6,12 +6,12 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { motion } from "framer-motion";
 
-export const Experience = () => {
+export const Experiences = () => {
   return (
     <div className="experience">
       <div className="titleContainer">
         <motion.h1>
-          My <motion.b whileHover={{ color: "#eb4a7e" }}>Experience</motion.b>
+          My <motion.b whileHover={{ color: "#eb4a7e" }}>Experiences</motion.b>
         </motion.h1>
       </div>
       <div className="timeline">
