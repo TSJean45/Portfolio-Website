@@ -1,3 +1,5 @@
+@import "../../App.scss";
+
 .experience {
   background: linear-gradient(180deg, #0e0320, #0c0c1d);
   height: 100vh; 
@@ -13,6 +15,10 @@
     
     h1 {
       font-size: 3rem;
+
+      @include mobile {
+        font-size: 2rem;
+      }
     }
   }
 
