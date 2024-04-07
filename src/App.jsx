@@ -5,7 +5,7 @@ import { Parallax } from "./components/parallax/Parallax";
 import { About } from "./components/about/About";
 import { Experiences } from "./components/experiences/Experiences";
 import { Skills } from "./components/skills/Skills";
-import { Project } from "./components/project/Project";
+import Projects from "./components/projects/Projects";
 
 const App = () => {
   return (
@@ -25,7 +25,7 @@ const App = () => {
       </section>
       <section id="Skills"><Skills /></section>
       <section id="Projects">
-        <Project />
+        <Projects />
       </section>
       <section id="Achievements">Achievements</section>
       <section id="Contact">Contact</section>

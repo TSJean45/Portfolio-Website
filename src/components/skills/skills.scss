@@ -41,11 +41,11 @@
           box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
           border-radius: 16px;
           padding: 14px 26px;
-          transition: all 0.3s ease; /* Added transition for smooth hover effect */
+          transition: all 0.3s ease;
   
           &:hover {
-            border-color: #339dc4; /* Change border color on hover */
-            transform: scale(1.02); /* Scale up the card on hover */
+            border-color: #339dc4; 
+            transform: scale(1.02); 
           }
   
           @media (max-width: 768px) {
@@ -88,7 +88,7 @@
               @media (max-width: 500px) {
                 font-size: 12px;
                 padding: 4px 8px;
-                word-wrap: break-word; // Add this property for word wrap
+                word-wrap: break-word;
               }
   
               img {
