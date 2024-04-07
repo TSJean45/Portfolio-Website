@@ -6,6 +6,7 @@ import { About } from "./components/about/About";
 import { Experiences } from "./components/experiences/Experiences";
 import { Skills } from "./components/skills/Skills";
 import Projects from "./components/projects/Projects";
+import { Footer } from "./components/footer/Footer";
 
 const App = () => {
   return (
@@ -24,11 +25,12 @@ const App = () => {
         <Experiences />
       </section>
       <section id="Skills"><Skills /></section>
-      <section id="Projects">
+      {/* <section id="Projects">
         <Projects />
       </section>
       <section id="Achievements">Achievements</section>
-      <section id="Contact">Contact</section>
+      <section id="Contact">Contact</section> */}
+      <Footer />
     </div>
   );
 };

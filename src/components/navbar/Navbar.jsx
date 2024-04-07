@@ -17,13 +17,13 @@ export const Navbar = () => {
           <img src="/WBL.png" alt="logo" />
         </motion.a>
         <div className="social">
-          <a href="#">
+          <a href="https://www.linkedin.com/in/szujeantan/" target="_blank" rel="noopener noreferrer">
             <img src="/linkedin.png" alt="linkedin logo" />
           </a>
-          <a href="#">
+          <a href="https://github.com/TSJean45" target="_blank" rel="noopener noreferrer">
             <img src="/github.png" alt="github logo" />
           </a>
-          <a href="#">
+          <a href="/Tan Szu Jean_Resume.pdf" target="_blank" rel="noopener noreferrer">
             <button>Resume</button>
           </a>
         </div>

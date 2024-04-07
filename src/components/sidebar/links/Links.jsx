@@ -6,8 +6,8 @@ export const Links = () => {
     "About",
     "Experience",
     "Skills",
-    "Projects",
-    "Achievements",
+    // "Projects",
+    // "Achievements",
   ];
 
   
