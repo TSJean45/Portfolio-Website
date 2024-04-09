@@ -1,6 +1,7 @@
 {
   "homepage": "https://szujeantan.codes",
   "name": "portfolio-website",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
